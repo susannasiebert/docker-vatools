@@ -9,4 +9,4 @@ RUN apt-get update -y && apt-get install -y \
     python3 \
     python3-pip
 
-RUN pip3 install --extra-index-url https://testpypi.python.org/pypi vcf-annotation-tools
+RUN pip3 install vcf-annotation-tools
