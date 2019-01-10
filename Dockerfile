@@ -3,7 +3,7 @@ MAINTAINER John Garza <johnegarza@wustl.edu>
 
 LABEL \
     description="Image containing the vcf-annotation-tools python package" \
-    version="1.4.6"
+    version="2.0.0"
 
 RUN apt-get update -y && apt-get install -y \
     apt-utils \
