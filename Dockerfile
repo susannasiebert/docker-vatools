@@ -1,8 +1,8 @@
 FROM ubuntu:xenial
-MAINTAINER John Garza <johnegarza@wustl.edu>
+MAINTAINER Susanna Kiwala <susanna.kiwala@wustl.edu>
 
 LABEL \
-    description="Image containing the vcf-annotation-tools python package" \
+    description="Image containing the vatools python package" \
     version="3.0.0"
 
 RUN apt-get update -y && apt-get install -y \
@@ -10,4 +10,4 @@ RUN apt-get update -y && apt-get install -y \
     python3 \
     python3-pip
 
-RUN pip3 install vcf-annotation-tools==3.0.0
+RUN pip3 install vatools==3.0.0
